@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="h">
+        <div class="hh">
+            <div class="con">
+                <div class="in_div">
+                    <div class="a"><b>From:</b></div>
+                    <select name="" id="from">
+                        <!-- <option value="none">Select</option> -->
+                        <option value="1">Decimal</option>
+                        <option value="2">Binary</option>
+                        <option value="3">Octal</option>
+                        <option value="4">Hexadecimal</option>
+                    </select>
+                </div>
+
+                <div class="out_div">
+                    <div class="a"><b>To:</b></div>
+                    <select name="" id="to">
+                        <!-- <option value="none" selected disabled >Select</option> -->
+                        <option value="1">Decimal</option>
+                        <option value="2" selected>Binary</option>
+                        <option value="3">Octal</option>
+                        <option value="4">Hexadecimal</option>
+                    </select>
+                </div>
+            </div>
+            <div class="S">
+                <input id="input" placeholder="Enter the Input Value" value="" type="text">
+                <button class="btn" onclick="fun()">Submit</button>
+                <input id="output" value="" type="text">
+                <div class="error">
+                    Enter a Input value!
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

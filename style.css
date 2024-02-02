@@ -1,0 +1,77 @@
+body {
+    margin: 0;padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.S {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.error {
+    display: none;
+    color: red
+}
+
+select {
+    margin-top: .5rem;
+    border-radius: 10px;
+    border: 2px solid;
+
+}
+
+button {
+    border: .3px solid gray;
+    border-radius: 30px;
+    
+padding: 0 10%;
+}
+
+.h{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-image: linear-gradient(45deg,red, blue, green,yellow,orange);
+    background-repeat:no-repeat;
+    /* filter: hue-rotate(90deg); */
+    animation: main 5s ease-in-out 1;
+    animation-iteration-count: infinite;
+    
+}
+.hh{
+    padding: 10px;
+    backdrop-filter: blur(100px);
+    box-shadow: 0px 0px 20px whitesmoke;
+    border-radius: 10px;
+}
+input{
+    font-weight: bold;
+}
+
+.a{
+   text-decoration: underline;
+}
+
+@keyframes main{
+    from{
+        filter: hue-rotate(0deg);
+        
+    }
+    to{
+        filter: hue-rotate(160deg);
+    }
+}
